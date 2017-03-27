@@ -1,0 +1,13 @@
+body {
+	margin-top: -50px !important;
+	width:1200px;
+	background-color: lightblue;
+	font: 13px, Calibri, sans-serif;
+	margin: 0 auto;
+}
+
+#content {
+	background-color: white;
+	text-align: center;
+	}
+
