@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<link rel="stylesheet" href ="styles.css">
 	</head>	
@@ -7,20 +8,60 @@
 
 <body>
 	<div id="content">
-		<p style = "font-size:300%;">Luke's test page </p>
-		<p>if you don't like it I'm sorry</p>
-		<hr>
-		<p> 2:41 </p>
-		<p> Green not working? </p>
-		<p style = 'font-size:150%;'> Would you like to see a simple agent-based model? Click one of the pictures below to check out its accompanying model.</p>
-		<p> This is a simple nesting model for <a href ="http://stackoverflow.com/questions/43022954/paired-turtles-moving-together-netlogo"> Melimel </a> </p>
-		<a href = "nesting_pairs.html">
-		<img border = '1' src = "nesters.JPG" alt = "They just want to settle down." width = '500' height = '500'></img>
-		</a>
-		<p> This shows snake-like agents looking for "food"</p>
-		<a href = "seekers.html">
-		<img border = '1' src = "seekers.JPG" alt = "Some snake guys looking for food." width = '500' height = '500'></img>
-		</a>        
+		<div id="testing">
+			<h1> Example Models </h1>
+			<p> &nbsp; </p>
+			<hr>
+			<p> &nbsp; </p>
+		</div>	
+		<div id = "fig_cap" >
+			<p style = "font-size: 200%; line-height: 100%;"> Click  one of the pictures below 
+			to check out its accompanying model online or to download the Netlogo code.</p>
+		</div>
+		<p> &nbsp; </p>
+		<div id ="normal">
+			<a href = "sharks_birds_and_octomobiles.html">
+			<img border = '1' src = "sharks.JPG" alt = "Sharks are feeling snacky." width = '800' height = '400'></img>
+			</a>
+				<div id = "fig_cap">
+					<p> This is the first Netlogo model I made. The shark will swim back and forth and try to eat birds. If it eats enough,
+					the shark becomes sated and dives to a lower depth until it is hungry again. Meanwhile, birds sometimes sink to 
+					the ocean floor where they can be eaten by octopi. Note that this model runs very slowly in the browser window-
+					you should download the model to actually run it.
+					</p>
+				</div>	
+				<p> &nbsp; </p>	
+			<a href = "bird_drift.html">
+			<img border = '1' src = "birbs.JPG" alt = "Hold birb gently like hamburger." width = '800' height = '800'></img>
+			</a>
+				<div id = "fig_cap">
+					<p> I made this simple model of genetic drift. Birds spawn on random landscapes and breed, transmitting their color
+					to their offspring, which then disperse if there is available territory. There is a slight chance for colour mutation, 
+					but islands with high-connectivity tend to drift towards colour homogeneity. The more the landscape is broken up into individual
+					islands, the more likely it is that there will be a variety of bird colours. This is almost guaranteed not to work in-browser- 
+					download the model file to see the colours change over generations.
+					 </p>
+				</div>	
+			<p> &nbsp; </p>			
+			<a href = "nesting_pairs.html">
+			<img border = '1' src = "nesters.JPG" alt = "They just want to settle down." width = '800' height = '800'></img>
+			</a>
+			<div id = "fig_cap">
+				<p> This is a simple nesting model that I made to answer a question by  
+				<a href ="http://stackoverflow.com/questions/43022954/paired-turtles-moving-together-netlogo"> Melimel</a>.
+				where agents move randomly through the landscape until they bump into any other turtle. Once that happens, the pair goes to 
+				a an unoccupied nest, represented by yellow patches.
+				</p>
+				<p> &nbsp; </p>
+			</div>	
+			<a href = "seekers.html">
+			<img border = '1' src = "seekers.JPG" alt = "Some snake guys looking for food." width = '800' height = '800'></img>
+			</a>     
+			<div id = "fig_cap">
+				<p> A snake-inspired model in which agents move around the landscape until they get stuck on a "tail" or until all food circles have been eaten.
+				</p>
+			</div>				
+		</div>
 	</div>
 </body>
 </html>
