@@ -4,7 +4,7 @@ body {
 	line-height: 125%;
 	background-image: url(bkgnd_img_2.jpg);
 	background-repeat: no-repeat;
-	background-size:scale;
+	background-size:cover;
 	background-attachment: fixed;
 }
 
