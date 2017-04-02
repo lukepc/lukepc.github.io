@@ -16,6 +16,18 @@ p {
 	font-size: 150%
 }
 
+
+hr {
+	border-color: grey;
+	border-width: 3px;
+}
+
+
+img {
+	border: 2px black;
+}
+
+
 #content {
 	padding: 0px;
 	padding-top: 30px;
@@ -24,10 +36,6 @@ p {
 	text-align: center;
 	}
 
-hr {
-	border-color: grey;
-	border-width: 3px;
-}
 	
 #testing {
 	padding: 0px;
@@ -54,3 +62,5 @@ hr {
 	padding-bottom: 0px;
 	
 }
+
+img { 
